@@ -1,0 +1,11 @@
+* {
+  font-family: inter, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 24px;
+}

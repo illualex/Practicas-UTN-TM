@@ -1,0 +1,44 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 240px;
+    height: 255px;
+    position: relative;
+}
+
+.color-container {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.color {
+    flex: 1;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.color-name {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background-color: rgba(40, 40, 40, 0.5);
+    padding: 3px 6px;
+    border-radius: 0 6px 0 0;
+    font-size: 14px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.btnLike {
+    all: unset;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    background-color: transparent;
+    padding: 8px 12px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.btnLike:hover {
+    background-color: #f3f4f6;
+}
