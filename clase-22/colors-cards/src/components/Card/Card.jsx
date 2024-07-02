@@ -3,9 +3,9 @@ import LikeButton from '../Button/Button';
 import './Card.css';
 
 const Card = ({ colors, likes, update, id }) => {
+    /* -- EXTRA -- */
     /* Estado para almacenar el color sobre donde se coloque el mouse*/
     const [hoveredColor, setHoveredColor] = useState(null);
-
     /* Hace la acción de copiar color y muestra mensaje de alerta de copiado*/
     const handleCopyColor = (color) => {
         navigator.clipboard.writeText(color);
